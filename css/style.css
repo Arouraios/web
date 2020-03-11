@@ -1,5 +1,37 @@
-.header {
-	
-	
-	
+#navbar{
+	overflow: hidden;
+	background-color: #333;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	border: 1px solid #555;
+	padding: 0;
+	float: right,
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+li {
+	text-align: center;
+	border-bottom: 1px solid #555;
+	display: inline;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
