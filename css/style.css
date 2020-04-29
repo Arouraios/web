@@ -1,37 +1,46 @@
-#navbar{
-	overflow: hidden;
-	background-color: #333;
+.one {
+	margin-top: 0;
+	margin-left: 0;
+	width: 60%;
+	height: 90%;
+	background: grey;
+	float: left;
 }
 
-ul{
-	list-style-type: none;
-	margin: 0;
-	border: 1px solid #555;
-	padding: 0;
-	float: right,
+.one li{
+	margin-left: 5%;
 }
 
-a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
+.two {
+	margin-top: 0;
+	margin-left: 0;
+	height: 90%;
+	width: 30%;
+	text-align: right;
+	background: black;
+	float: right;
 }
 
-li {
+.two li {
 	text-align: center;
-	border-bottom: 1px solid #555;
-	display: inline;
+	margin-left: 2%;
+	margin-right: 2%;
 }
-
-li:last-child {
-  border-bottom: none;
-}
-
-
-
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+	top: 0;
+	padding: 0;
+	margin-top: 0%;
+	margin-left: 0;
+	width: 90%;
+	height: 40px;
+	background: aqua;
+}
+
+.sticky ul{
+	list-style: none;
+}
+
+.sticky li{
+	display: inline;
 }
